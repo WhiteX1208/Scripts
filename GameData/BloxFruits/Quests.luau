@@ -1,10 +1,10 @@
 return {
     {
-        { LevelReq = 0,    NameQuest = "BanditQuest1",   NameMob = "Bandit" },
+        { LevelReq = 0,    NameQuest = "BanditQuest1",   NameMob = "Bandit", NPC = CFrame.new(1060, 17, 1545) },
     },
     {
-        { LevelReq = 10,   NameQuest = "JungleQuest",    NameMob = "Monkey" },
-        { LevelReq = 15,   NameQuest = "JungleQuest",    NameMob = "Gorilla" },
+        { LevelReq = 10,   NameQuest = "JungleQuest",    NameMob = "Monkey", NPC = CFrame.new(-1602, 37, 154) },
+        { LevelReq = 15,   NameQuest = "JungleQuest",    NameMob = "Gorilla", NPC = CFrame.new(-1602, 37, 154) },
     },
     {
         { LevelReq = 30,   NameQuest = "BuggyQuest1",    NameMob = "Pirate" },
