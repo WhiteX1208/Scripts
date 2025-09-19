@@ -1,6 +1,5 @@
-local Quests = {
+return {
     { LevelReq = 0,    NameQuest = "BanditQuest1",      NameMob = "Bandit" },
-    -- MarineQuest (Trainee) bị bỏ qua
     { LevelReq = 10,   NameQuest = "JungleQuest",       NameMob = "Monkey" },
     { LevelReq = 15,   NameQuest = "JungleQuest",       NameMob = "Gorilla" },
     { LevelReq = 30,   NameQuest = "BuggyQuest1",       NameMob = "Pirate" },
@@ -91,4 +90,3 @@ local Quests = {
     { LevelReq = 2650, NameQuest = "SubmergedQuest2",   NameMob = "Sea Chanter" },
     { LevelReq = 2675, NameQuest = "SubmergedQuest2",   NameMob = "Ocean Prophet" },
 }
-return Quests
