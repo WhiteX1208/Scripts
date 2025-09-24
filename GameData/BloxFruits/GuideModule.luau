@@ -1,4 +1,4 @@
-return return {
+return {
   -- First Sea
   ["BanditQuest1"] = "Bandit Quest Giver",
   ["JungleQuest"] = "Adventurer",
