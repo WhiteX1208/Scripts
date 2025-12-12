@@ -1,5 +1,83 @@
--- Obfuscate By Prometheus Modded
--- Time Remaining : 0 Seconds
--- Modded By ! xHoang
-
-local o=getgenv()local s=network if not s then s={}local o={connections={insert=function(o,s)o[#o+1]=s end;clear=function(o)for s=1,#o,1 do local p=o[s]if type(p)~="\102\117\110\099\116\105\111\110"then p:Disconnect()table.remove(o,table.find(o,p))end end end};remotes={insert=function(o,s)o[#o+1]=s end}}s.cache=o function s.Retrieve(o,s,p)local F=o.cache.remotes[s]if not F then if typeof(s)~="\073\110\115\116\097\110\099\101"or not s then F=game:FindFirstChild(s,true)else F=s end end if F then if F:IsA("\082\101\109\111\116\101\069\118\101\110\116")then o.cache.connections:insert(F.OnClientEvent:Connect(p))o.cache.remotes[s]=F elseif F:IsA("\082\101\109\111\116\101\070\117\110\099\116\105\111\110")then F.OnClientInvoke=p o.cache.connections:insert(F.OnClientInvoke)o.cache.remotes[s]=F else warn("\085\110\097\098\108\101 \116\111 \067\111\110\110\101\099\116 \078\101\116\119\111\114\107")end else warn("\085\110\097\098\108\101 \116\111 \073\110\100\101\110\116\105\102\121 \082\101\109\111\116\101 \078\101\116\119\111\114\107")end end function s.Send(o,s,p)local F,Q=pcall(function(...)local p=o.cache.remotes[s]if not p then if typeof(s)=="\073\110\115\116\097\110\099\101"then p=s else p=game:FindFirstChild(s,true)end end if p then if p:IsA("\082\101\109\111\116\101\069\118\101\110\116")then o.cache.remotes[s]=p p:FireServer(...)else if p:IsA("\082\101\109\111\116\101\070\117\110\099\116\105\111\110")then o.cache.remotes[s]=p return p:InvokeServer(...)end error("\085\110\097\098\108\101 \116\111 \067\111\110\110\101\099\116 \078\101\116\119\111\114\107")end else error("\085\110\097\098\108\101 \116\111 \073\100\101\110\116\105\102\121 \082\101\109\111\116\101 \078\101\116\119\111\114\107")end end,...)if not F then warn("\069\114\114\111\114 \105\110 \083\101\110\100 \102\117\110\099\116\105\111\110\058",Q)end return Q end end o.network=s return network
+local a=getgenv()
+local b
+if not b then
+b={}
+local c={
+connections={
+insert=function(c,d)
+c[#c+1]=d
+end,
+clear=function(c)
+for d=1,#c do
+local e=c[d]
+if type(e)~="function"then
+e:Disconnect()
+table.remove(c,table.find(c,e))
+end
+end
+end
+},
+remotes={
+insert=function(c,d)
+c[#c+1]=d
+end
+}
+}
+b.cache=c
+function b.Retrieve(d,e,f)
+local g=d.cache.remotes[e]
+if not g then
+if typeof(e)~="Instance"or not e then
+g=game:FindFirstChild(e,true)
+else
+g=e
+end
+end
+if g then
+if g:IsA"RemoteEvent"then
+d.cache.connections:insert(g.OnClientEvent:Connect(f))
+d.cache.remotes[e]=g
+elseif g:IsA"RemoteFunction"then
+g.OnClientInvoke=f
+d.cache.connections:insert(g.OnClientInvoke)
+d.cache.remotes[e]=g
+else
+warn"Unable to Connect Network"
+end
+else
+warn"Unable to Indentify Remote Network"
+end
+end
+function b.Send(d,e,...)
+local f,g=pcall(function(...)
+local f=d.cache.remotes[e]
+if not f then
+if typeof(e)=="Instance"then
+f=e
+else
+f=game:FindFirstChild(e,true)
+end
+end
+if f then
+if f:IsA"RemoteEvent"then
+d.cache.remotes[e]=f
+f:FireServer(...)
+else
+if f:IsA"RemoteFunction"then
+d.cache.remotes[e]=f
+return f:InvokeServer(...)
+end
+error"Unable to Connect Network"
+end
+else
+error"Unable to Identify Remote Network"
+end
+end,...)
+if not f then
+warn("Error in Send function:",g)
+end
+return g
+end
+end
+a.network=b
+return b
