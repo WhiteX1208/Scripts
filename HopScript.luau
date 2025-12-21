@@ -10,4 +10,4 @@ local NIG_1, NIG_2 = pcall(function()
         print(NIG_2)
     end
 require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>Api Online 🟢!<Color=/>"):Display()
-loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/9a2fec733e49e920"))()
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/cf76449892b77195"))()
