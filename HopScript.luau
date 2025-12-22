@@ -10,4 +10,5 @@ local NIG_1, NIG_2 = pcall(function()
         print(NIG_2)
     end
 require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>Api Online 🟢!<Color=/>"):Display()
-loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/cf76449892b77195"))()
+require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>🛠️ Fixed Can't Attack<Color=/>"):Display()
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/1e48209f4880ab89"))()
