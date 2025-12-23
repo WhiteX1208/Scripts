@@ -9,6 +9,6 @@ local NIG_1, NIG_2 = pcall(function()
     else
         print(NIG_2)
     end
-require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>Api Online 🟢!<Color=/>"):Display()
+require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>Api Down 🔴!<Color=/>"):Display()
 require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>🛠️ Ahh Fixed Can't Attack Again :)))))))<Color=/>"):Display()
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/b9c425c0e5a9f3f0"))()
