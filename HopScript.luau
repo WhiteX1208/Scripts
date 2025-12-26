@@ -10,5 +10,5 @@ local NIG_1, NIG_2 = pcall(function()
         print(NIG_2)
     end
 require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>Api Online 🟢!<Color=/>"):Display()
-require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>🛠️ Ahh Fixed Can't Attack Again :)))))))<Color=/>"):Display()
-loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/b9c425c0e5a9f3f0"))()
+require(game:GetService("ReplicatedStorage").Notification).new("<Color=Green>🛠️ If Fast Attack Not Work, Input '/console' in chat and send output message to @_luongminhnghia<Color=/>"):Display()
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/dca1b08ed8415ddf"))()
