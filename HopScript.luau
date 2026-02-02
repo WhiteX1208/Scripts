@@ -9,4 +9,4 @@ local NIG_1, NIG_2 = pcall(function()
     else
         print(NIG_2)
     end
-loadstring(game:HttpGet("https://vss.pandadevelopment.net/virtual/file/73d5e909a9b04c27"))()
+loadstring(game:HttpGet("https://vss.pandadevelopment.net/virtual/file/8f280f5c8e3a44b4"))()
