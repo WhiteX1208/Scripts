@@ -1,6 +1,6 @@
 local NIG_1, NIG_2 = pcall(function()
     return http_request({
-        Url = "https://minhnghia.pythonanywhere.com/totalexecute",
+        Url = "https://python-4q69.onrender.com/totalexecute",
         Method = "POST"
     })
     end)
