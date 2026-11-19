@@ -1,0 +1,1287 @@
+{
+ "Version": "2026-11-19",
+ "Weights": {
+  "SeaDamage": 100,
+  "SeaResist": 60,
+  "SeaDamageReduction": 60,
+  "AllDamage": 40,
+  "Health": 0.02,
+  "AllResist": 30,
+  "SpeedMultiplier": 10,
+  "HealthRegen": 20
+ },
+ "Tier": {
+  "Blox Fruit": [
+   "Dragon-Dragon",
+   "Kitsune-Kitsune",
+   "Dough-Dough",
+   "T-Rex-T-Rex",
+   "Mammoth-Mammoth",
+   "Yeti-Yeti",
+   "Gas-Gas",
+   "Leopard-Leopard",
+   "Venom-Venom",
+   "Spirit-Spirit",
+   "Lightning-Lightning",
+   "Magma-Magma"
+  ],
+  "Sword": [
+   "Shark Anchor",
+   "Cursed Dual Katana",
+   "True Triple Katana",
+   "Hallow Scythe",
+   "Dark Blade",
+   "Spikey Trident",
+   "Tushita",
+   "Yama",
+   "Buddy Sword",
+   "Gravity Blade"
+  ],
+  "Gun": [
+   "Dragonstorm",
+   "Skull Guitar",
+   "Serpent Bow",
+   "Acidum Rifle",
+   "Venom Bow",
+   "Kabucha",
+   "Bizarre Revolver"
+  ],
+  "Melee": [
+   "Sanguine Art",
+   "Godhuman",
+   "Sharkman Karate",
+   "Dragon Talon",
+   "Electric Claw",
+   "Death Step",
+   "Superhuman"
+  ]
+ },
+ "Builds": {
+  "Blox Fruit": {
+   "Defense": 1,
+   "Demon Fruit": 2,
+   "Melee": 3
+  },
+  "Sword": {
+   "Defense": 1,
+   "Sword": 2,
+   "Melee": 3
+  },
+  "Gun": {
+   "Defense": 1,
+   "Gun": 2,
+   "Melee": 3
+  },
+  "Melee": {
+   "Defense": 1,
+   "Melee": 2,
+   "Sword": 3
+  }
+ },
+ "Zones": [
+  {
+   "Level": 1500,
+   "Zone": "Level 1",
+   "Boat": "Brigade"
+  },
+  {
+   "Level": 2000,
+   "Zone": "Level 3",
+   "Boat": "Brigade"
+  },
+  {
+   "Level": 2300,
+   "Zone": "Level 5",
+   "Boat": "Brigade"
+  },
+  {
+   "Level": 2550,
+   "Zone": "Level 6",
+   "Boat": "Brigade"
+  }
+ ],
+ "Items": {
+  "Swordsman Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Sword": 0.1
+   }
+  },
+  "Shark Tooth Necklace": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.5,
+    "DashLength": 10,
+    "SeaDamage": 0.25
+   }
+  },
+  "Twin Hooks": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Divine Cloak": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.3,
+    "Health": 500,
+    "SummerTokenMult": 0.3,
+    "AllDamage.Melee": 0.07,
+    "AllDamage.Fruit": 0.07,
+    "Energy": 500
+   }
+  },
+  "Acidum Rifle": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.1
+   }
+  },
+  "Elf Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.2,
+    "MeleeCooldown": 0.05,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Sword": 0.1,
+    "SwordCooldown": 0.05
+   }
+  },
+  "50b Party Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "EXPBoost": 0.1,
+    "Energy": 400,
+    "Health": 400
+   }
+  },
+  "Dojo Belt (Black)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Melee": 0.16,
+    "DodgeBoost": 1
+   }
+  },
+  "Slingshot": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.25
+   }
+  },
+  "Dark Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 600,
+    "AllDamage.Fruit": 0.15,
+    "Health": 600
+   }
+  },
+  "Celestial Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllCooldown": 0.05,
+    "SummerTokenMult": 0.3,
+    "AllResist.Sword": 0.1,
+    "AllResist.Melee": 0.1,
+    "AllResist.Gun": 0.1,
+    "ObservationRange": 2
+   }
+  },
+  "Triple Dark Blade": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.07
+   }
+  },
+  "Buddy Sword": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Headband (Purple)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Gun": 0.1,
+    "AllResist.Fruit": 0.1,
+    "AllResist.Melee": 0.1,
+    "AllResist.Sword": 0.1,
+    "SpeedMultiplier": 0.4
+   }
+  },
+  "Dragonstorm": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.06
+   }
+  },
+  "Tushita": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Santa Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.3,
+    "Health": 400,
+    "AllDamage.Sword": 0.125,
+    "AllDamage.Fruit": 0.125,
+    "Energy": 400
+   }
+  },
+  "Cannon": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.3
+   }
+  },
+  "Headband (White)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Gun": 0.02,
+    "AllResist.Fruit": 0.02,
+    "AllResist.Melee": 0.02,
+    "AllResist.Sword": 0.02,
+    "SpeedMultiplier": 0.1
+   }
+  },
+  "Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.1,
+    "Energy": 200
+   }
+  },
+  "Pipe": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Skull Guitar": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.06
+   }
+  },
+  "Headband (Black)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.7,
+    "DodgeBoost": 1,
+    "AllResist.Gun": 0.16,
+    "AllResist.Fruit": 0.16,
+    "AllResist.Melee": 0.16,
+    "AllResist.Sword": 0.16,
+    "AllDamage.Melee": 0.07
+   }
+  },
+  "Headband (Blue)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Gun": 0.08,
+    "AllResist.Fruit": 0.08,
+    "AllResist.Melee": 0.08,
+    "AllResist.Sword": 0.08,
+    "SpeedMultiplier": 0.3
+   }
+  },
+  "Yama": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Wardens Sword": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Blue Spikey Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 500,
+    "AllDamage": 0.075,
+    "Health": 250
+   }
+  },
+  "Kabucha": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.15
+   }
+  },
+  "Usoap's Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Gun": 0.075,
+    "GunCooldown": 0.15
+   }
+  },
+  "Flintlock": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.25
+   }
+  },
+  "Cursed Dual Katana": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.07
+   }
+  },
+  "Swan Glasses": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.25,
+    "AllResist": 0.08,
+    "AllCooldown": 0.08,
+    "AllDamage": 0.08,
+    "Energy": 250,
+    "Health": 250
+   }
+  },
+  "Fox Lamp": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.07
+   }
+  },
+  "Oni Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllCooldown": 0.1,
+    "SummerTokenMult": 0.3,
+    "SpeedMultiplier": 0.3,
+    "HealthRegen": 0.3
+   }
+  },
+  "Venom Bow": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.1
+   }
+  },
+  "Coven Witch Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "CandyCornMult": 0.1,
+    "Health": 250,
+    "AllDamage.Fruit": 0.07,
+    "AllResist.Fruit": 0.1
+   }
+  },
+  "Uzoth's Cloak": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 750,
+    "Health": 750,
+    "AllResist": 0.05,
+    "AllDamage.Melee": 0.2
+   }
+  },
+  "Headband (Green)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Gun": 0.07,
+    "AllResist.Fruit": 0.07,
+    "AllResist.Melee": 0.07,
+    "AllResist.Sword": 0.07,
+    "SpeedMultiplier": 0.2
+   }
+  },
+  "Pretty Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.5,
+    "AllResist.Melee": 0.15,
+    "AllDamage.Melee": 0.1,
+    "Energy": 250,
+    "Health": 500
+   }
+  },
+  "True Triple Katana": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.13
+   }
+  },
+  "Bazooka": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.25
+   }
+  },
+  "Canvander": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Ghoul Mask": {
+   "Kind": "Accessory",
+   "Stats": {
+    "PveLeech.Melee": 0.025,
+    "PvpLeech.Melee": 0.1,
+    "Energy": 500,
+    "SpeedMultiplier": 0.35
+   }
+  },
+  "Dojo Belt (Green)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.08,
+    "SpeedMultiplier": 0.2
+   }
+  },
+  "Rengoku": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Soul Cane": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.2
+   }
+  },
+  "Triple Katana": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Oroshi": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.12
+   }
+  },
+  "Coral Crown": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Health": 500,
+    "SeaResist": 0.2,
+    "SeaDamageReduction": 0.6,
+    "AllDamage.Fruit": 0.1,
+    "MagnetTokenMult": 0.25
+   }
+  },
+  "Cupid's Top Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.14,
+    "HeartsMult": 0.2,
+    "Health": 214,
+    "AllDamage.Melee": 0.02,
+    "Energy": 214
+   }
+  },
+  "Zebra Cap": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Health": 100,
+    "FruitCooldown": 0.15,
+    "AllDamage.Sword": 0.1,
+    "Energy": 500
+   }
+  },
+  "Mummy Headdress": {
+   "Kind": "Accessory",
+   "Stats": {
+    "HealthRegen": 0.15,
+    "CandyCornMult": 0.05,
+    "Energy": 250,
+    "AllDamage.Fruit": 0.05,
+    "DodgeBoost": 1
+   }
+  },
+  "Warrior Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "MeleeCooldown": 0.05,
+    "AllDamage.Melee": 0.125,
+    "AllDamage.Sword": 0.125,
+    "SwordCooldown": 0.05
+   }
+  },
+  "Spikey Trident": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.07
+   }
+  },
+  "Cool Shades": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.175,
+    "Health": 100,
+    "AllDamage": 0.075,
+    "Energy": 100
+   }
+  },
+  "Dragon Trident": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Lei": {
+   "Kind": "Accessory",
+   "Stats": {
+    "HealthRegen": 0.5
+   }
+  },
+  "Bandanna (Black)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Sword": 0.1,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Gun": 0.1,
+    "Energy": 750
+   }
+  },
+  "Sanguine Cloak": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Health": 500,
+    "AllResist.Melee": 0.05,
+    "AllDamage.Melee": 0.05,
+    "AllDamage.Sword": 0.05,
+    "SummerTokenMult": 0.3
+   }
+  },
+  "Hunter Cape (Green)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Sword": 0.1,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Gun": 0.1,
+    "Health": 750
+   }
+  },
+  "Magma Blaster": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.2
+   }
+  },
+  "Hunter Cape (Black)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Sword": 0.1,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Gun": 0.1,
+    "Health": 750
+   }
+  },
+  "Leviathan Shield": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SeaResist": 0.3,
+    "SeaDamageReduction": 0.9,
+    "AllResist.Sword": 0.15,
+    "AllResist.Melee": 0.15,
+    "AllResist.Gun": 0.15,
+    "Health": 1000
+   }
+  },
+  "Pink Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.25,
+    "Health": 100,
+    "SeaDamage": 0.15,
+    "AllDamage": 0.05,
+    "Energy": 100
+   }
+  },
+  "T-Rex Skull": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Melee": 0.15,
+    "AllResist.Fruit": 0.15,
+    "Health": 750
+   }
+  },
+  "Longsword": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.23
+   }
+  },
+  "Midnight Blade": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.13
+   }
+  },
+  "Red Spikey Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 250,
+    "AllDamage": 0.075,
+    "Health": 500
+   }
+  },
+  "Leviathan Crown": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SeaMaterialDropRate": 0.4,
+    "HealthRegen": 0.25,
+    "SeaDamage": 0.35,
+    "AllDamage.Melee": 0.12,
+    "DodgeBoost": 1
+   }
+  },
+  "Shark Saw": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Katana": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.3
+   }
+  },
+  "Hunter Cape (Red)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Sword": 0.1,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Gun": 0.1,
+    "Health": 750
+   }
+  },
+  "Black Spikey Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 200,
+    "AllDamage": 0.075,
+    "Health": 200
+   }
+  },
+  "Koko": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.13
+   }
+  },
+  "Party Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "EXPBoost": 0.1,
+    "Energy": 400,
+    "Health": 400
+   }
+  },
+  "Holy Crown": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist": 0.05,
+    "AllDamage": 0.05,
+    "EnergyRegen": 0.05,
+    "Energy": 500,
+    "Health": 500
+   }
+  },
+  "Dragon Mantle": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllCooldown": 0.1,
+    "DashLengthAir": 15,
+    "AllDamage.Sword": 0.15,
+    "AllDamage.Gun": 0.15,
+    "SkyjumpBoost": 2
+   }
+  },
+  "Terror Jaw": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Health": 200,
+    "AllCooldown": 0.1,
+    "AllDamage.Sword": 0.1,
+    "Energy": 200,
+    "SeaResist": 0.2
+   }
+  },
+  "Pole (2nd Form)": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Trident": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Dojo Belt (Yellow)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.04,
+    "SpeedMultiplier": 0.15
+   }
+  },
+  "Cutlass": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.3
+   }
+  },
+  "Easter Bunny Cape": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.5,
+    "DashLength": 10,
+    "AllDamage.Melee": 0.1,
+    "SkyjumpBoost": 3
+   }
+  },
+  "Musket": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.25
+   }
+  },
+  "Jaw Shield": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.5,
+    "AllResist.Melee": 0.1,
+    "AllDamage.Melee": 0.125,
+    "Energy": 500,
+    "Health": 250
+   }
+  },
+  "Cracked Egg Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist": 0.1,
+    "AllDamage": 0.05,
+    "Health": 500
+   }
+  },
+  "Frosty Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.5,
+    "CandyMult": 0.2,
+    "AllDamage.Gun": 0.1,
+    "AllResist": 0.05
+   }
+  },
+  "Top Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllCooldown": 0.1,
+    "AllDamage.Melee": 0.03,
+    "AllResist.Sword": 0.1
+   }
+  },
+  "Valkyrie Helm": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 600,
+    "AllDamage.Sword": 0.15,
+    "Health": 600
+   }
+  },
+  "Pumpkin Mask": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.2,
+    "AllResist.Melee": 0.05,
+    "CandyCornMult": 0.15,
+    "AllDamage.Melee": 0.06,
+    "AllDamage.Sword": 0.06,
+    "Health": 250
+   }
+  },
+  "Red Ribbon": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.2,
+    "FruitCooldown": 0.05,
+    "AllResist": 0.07,
+    "AllDamage.Fruit": 0.05,
+    "CandyMult": 0.2
+   }
+  },
+  "Shark Anchor": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.07
+   }
+  },
+  "Feathered Visage": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.25,
+    "Health": 300,
+    "HealthRegen": 0.25
+   }
+  },
+  "Heart Shades": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist": 0.05,
+    "AllDamage.Melee": 0.125,
+    "AllDamage.Gun": 0.125,
+    "Energy": 600,
+    "Health": 400
+   }
+  },
+  "Refined Slingshot": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.2
+   }
+  },
+  "Kitsune Mask": {
+   "Kind": "Accessory",
+   "Stats": {
+    "RageGain": 0.15,
+    "Health": 750,
+    "TerrorReducer": 0.5,
+    "AllDamage.Fruit": 0.1,
+    "DodgeBoost": 2
+   }
+  },
+  "Gravity Blade": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.13
+   }
+  },
+  "Iron Mace": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.3
+   }
+  },
+  "Saishi": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.12
+   }
+  },
+  "Black Cape": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 100,
+    "AllDamage": 0.05,
+    "Health": 100
+   }
+  },
+  "Dual Flintlock": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.2
+   }
+  },
+  "Dojo Belt (Purple)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.14,
+    "SpeedMultiplier": 0.4
+   }
+  },
+  "Wyvern Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Health": 750,
+    "HealthRegen": 0.25,
+    "EnergyRegen": 0.05,
+    "Energy": 750,
+    "AllResist.Sword": 0.1,
+    "AllResist.Melee": 0.1,
+    "AllResist.Gun": 0.1
+   }
+  },
+  "Dragonheart": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.07
+   }
+  },
+  "Bisento": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Bear Ears": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist": 0.1,
+    "Energy": 500
+   }
+  },
+  "Saber": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.15
+   }
+  },
+  "Dojo Belt (Blue)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.1,
+    "SpeedMultiplier": 0.3
+   }
+  },
+  "Bizarre Revolver": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Gun": 0.15
+   }
+  },
+  "Hallow Scythe": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Headband (Yellow)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Gun": 0.04,
+    "AllResist.Fruit": 0.04,
+    "AllResist.Melee": 0.04,
+    "AllResist.Sword": 0.04,
+    "SpeedMultiplier": 0.15
+   }
+  },
+  "Shizu": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.1
+   }
+  },
+  "Peppermint Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.2,
+    "CandyMult": 0.2,
+    "AllResist": 0.05,
+    "AllDamage.Sword": 0.1
+   }
+  },
+  "Bandanna (Green)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Sword": 0.1,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Gun": 0.1,
+    "Energy": 750
+   }
+  },
+  "Musketeer Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "GunCooldown": 0.125,
+    "AllDamage.Gun": 0.125,
+    "AllDamage.Sword": 0.125,
+    "SwordCooldown": 0.125
+   }
+  },
+  "Headband (Red)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.6,
+    "AllResist.Gun": 0.12,
+    "AllResist.Fruit": 0.12,
+    "AllResist.Melee": 0.12,
+    "AllResist.Sword": 0.12,
+    "AllDamage.Melee": 0.05
+   }
+  },
+  "Kitsune Ribbon": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.3,
+    "DashLength": 7,
+    "AllResist.Fruit": 0.1,
+    "HealthRegen": 0.15,
+    "Energy": 2500,
+    "FlashstepCooldown": 0.25
+   }
+  },
+  "Pale Scarf": {
+   "Kind": "Accessory",
+   "Stats": {
+    "DodgeBoost": 2,
+    "AllDamage.Fruit": 0.15,
+    "AllDamage.Sword": 0.15,
+    "ObservationRange": 10
+   }
+  },
+  "Dojo Belt (Orange)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.06,
+    "SpeedMultiplier": 0.15
+   }
+  },
+  "Dojo Belt (White)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.02,
+    "SpeedMultiplier": 0.1
+   }
+  },
+  "Dual-Headed Blade": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Marine Cap": {
+   "Kind": "Accessory",
+   "Stats": {
+    "GunCooldown": 0.1,
+    "AllDamage.Gun": 0.075,
+    "AllDamage.Sword": 0.075,
+    "SwordCooldown": 0.1
+   }
+  },
+  "Great Pumpkin Top Hat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Fruit": 0.1,
+    "AllDamage.Fruit": 0.07,
+    "Health": 250
+   }
+  },
+  "Romantic Bouquet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.14,
+    "AllResist.Melee": 0.03,
+    "Friendship": 0.2,
+    "Energy": 143,
+    "Health": 143
+   }
+  },
+  "Holiday Cloak": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Fruit": 0.1,
+    "DodgeBoost": 1
+   }
+  },
+  "Bandanna (Red)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.8,
+    "AllDamage.Sword": 0.1,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Gun": 0.1,
+    "Energy": 750
+   }
+  },
+  "Dino Hood": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.5,
+    "Health": 500,
+    "Energy": 500,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Fruit": 0.1,
+    "DashLengthGround": 15
+   }
+  },
+  "Golden Sunhat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage": 0.1,
+    "Health": 500
+   }
+  },
+  "Headband (Orange)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist.Gun": 0.05,
+    "AllResist.Fruit": 0.05,
+    "AllResist.Melee": 0.05,
+    "AllResist.Sword": 0.05,
+    "SpeedMultiplier": 0.15
+   }
+  },
+  "D.S. Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "Energy": 200,
+    "Health": 200
+   }
+  },
+  "Tomoe Ring": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Fruit": 0.1
+   }
+  },
+  "Pole (1st Form)": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.25
+   }
+  },
+  "Shark Cape": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 0.3,
+    "Health": 500,
+    "SeaResist": 0.2,
+    "SeaDamage": 0.3,
+    "SeaDamageReduction": 0.6,
+    "AllDamage.Melee": 0.1,
+    "AllDamage.Sword": 0.1,
+    "MagnetTokenMult": 0.3
+   }
+  },
+  "Dark Dagger": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Dark Blade": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.08
+   }
+  },
+  "Royal Nimbus": {
+   "Kind": "Accessory",
+   "Stats": {
+    "EXPBoost": 0.08
+   }
+  },
+  "Dual Katana": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.3
+   }
+  },
+  "Flail": {
+   "Kind": "Weapon",
+   "Stats": {
+    "AllDamage.Sword": 0.18
+   }
+  },
+  "Shark Glasses": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.07,
+    "ObservationRange": 5,
+    "SeaResist": 0.1,
+    "DodgeBoost": 1,
+    "SeaDamageReduction": 0.3,
+    "MagnetTokenMult": 0.2
+   }
+  },
+  "Pilot Helmet": {
+   "Kind": "Accessory",
+   "Stats": {
+    "SpeedMultiplier": 1.3,
+    "Energy": 250,
+    "Health": 250,
+    "HealthRegen": 0.1
+   }
+  },
+  "Cupid's Coat": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllResist": 0.08,
+    "AllDamage.Fruit": 0.125,
+    "AllDamage.Sword": 0.125,
+    "Energy": 400,
+    "Health": 600
+   }
+  },
+  "Dojo Belt (Red)": {
+   "Kind": "Accessory",
+   "Stats": {
+    "AllDamage.Melee": 0.12,
+    "SpeedMultiplier": 0.6
+   }
+  },
+  "Choppa": {
+   "Kind": "Accessory",
+   "Stats": {
+    "FruitCooldown": 0.15,
+    "AllDamage.Fruit": 0.03,
+    "AllResist.Fruit": 0.1
+   }
+  }
+ },
+ "Guns": {
+  "MagmaBlaster": {
+   "Damage": 25.5,
+   "Range": 500
+  },
+  "AcidumRifle": {
+   "Damage": 3,
+   "Range": 500
+  },
+  "Slingshot": {
+   "Damage": 4.949999999999999,
+   "Range": 300
+  },
+  "Dragonstorm": {
+   "Damage": 4.949999999999999,
+   "Range": 400
+  },
+  "SkullGuitar": {
+   "Damage": 18,
+   "Range": 400
+  },
+  "RefinedSlingshot": {
+   "Damage": 11.25,
+   "Range": 200
+  },
+  "Cannon": {
+   "Damage": 33
+  },
+  "Kabucha": {
+   "Damage": 13.5,
+   "Range": 200
+  },
+  "BizarreRevolver": {
+   "Damage": 18,
+   "Range": 500
+  },
+  "Flintlock": {
+   "Damage": 19.5,
+   "Range": 500
+  },
+  "Musket": {
+   "Damage": 22.5,
+   "Range": 500
+  },
+  "VenomBow": {
+   "Damage": 3,
+   "Range": 400
+  },
+  "Bazooka": {
+   "Damage": 34.5
+  }
+ }
+}
